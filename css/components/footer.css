@@ -1,0 +1,32 @@
+footer {
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: white;*/
+	height: 20vh;
+	color: white;
+	font-size: 60px;
+}
+
+ul {
+	margin: 0 auto;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 50%;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #341d4e;
+	font-size: 80px;
+	transition: 1s;
+}

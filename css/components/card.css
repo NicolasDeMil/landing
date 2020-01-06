@@ -1,0 +1,42 @@
+.cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-size: 25px;
+}
+
+.card {
+	background-size: cover;
+	height: 50vh;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: white;*/
+	opacity: 0.8;
+	flex-direction: column;
+	margin: 0 10px;
+	border-radius: 10px;
+}
+
+.card p {
+	display: none;
+}
+
+.card:hover p{
+	display: inline-block;
+	font-size: 18px;
+	max-width: 400px;
+	padding: 10px;
+}
+
+.card:hover {
+	opacity: 1;
+	font-size: 40px;
+	display: show;
+}
